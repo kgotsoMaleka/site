@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connex Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> 
+  </head>
+  <body>
+    
+    <div class="nav-bar" id="nav">
+      <div class="btn-group">
+        <a href="index.html"><i class="fa fa-home"></i></a>
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+          HOME
+        </button>
+        <ul class="dropdown-menu">
+         <li><a class="dropdown-item"  href="#">GAMING</a></li> 
+         <li><a class="dropdown-item"  href="#">AUTOMATION</a></li> 
+         <li><a class="dropdown-item"  href="#">BEAUTY AND PERSONAL CARE</a></li> 
+         <li><a class="dropdown-item"  href="#">COMPUTER</a></li> 
+         <li><a class="dropdown-item"  href="#">ELECTRONICS</a></li> 
+         <li><a class="dropdown-item"  href="#">ENGRAVING MACHINE</a></li> 
+         <li><a class="dropdown-item"  href="#">GARDEN, POOL AND PATIO</a></li> 
+         <li><a class="dropdown-item"  href="#">PRINTERS</a></li> 
+         <li><a class="dropdown-item"  href="#">DAILY DEALS</a></li> 
+         <li><a class="dropdown-item"  href="#">SMART HOME</a></li> 
+         <li><a class="dropdown-item"  href="#">SMARTPHONE</a></li> 
+         <li><a class="dropdown-item"  href="#">SMARTWATCH</a></li> 
+         <li><a class="dropdown-item"  href="#">FASHION AND LUGGAGE</a></li> 
+         <li><a class="dropdown-item"  href="#">ENTERTAINMENT</a></li> 
+        </ul>
+      </div>
+      
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+          COMPUTER
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item"  href="#">TABLETS</a>
+            <li><a class="dropdown-item"  href="#">PROJECTOR</a></li>
+            <li><a class="dropdown-item"  href="#">LAPTOPS</a></li>
+            <li><a class="dropdown-item"  href="#">NETWORKING</a></li>
+            <li><a class="dropdown-item"  href="#">COMPONENTS</a></li>
+        </ul>
+      </div>
+      
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+          TABLETS
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">SAMSUNG</a></li>
+          <li><a class="dropdown-item" href="#">HAUWEI</a></li>
+          <li><a class="dropdown-item" href="#">LENOVO</a></li>
+          <li><a class="dropdown-item" href="#">TABLET ACCESSORIES</a></li>
+          <li><a class="dropdown-item" href="#">KINDLE</a></li>
+        </ul>
+      </div>
+      
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+          PROJECTORS
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">BENQ</a></li>
+          <li><a class="dropdown-item" href="#">EPSON</a></li>
+          <li><a class="dropdown-item" href="#">VIEWSONIC</a></li>
+          <li><a class="dropdown-item" href="#">PHILLIPS PROJECTOR</a></li>
+          <li><a class="dropdown-item" href="#">ACER</a></li>
+        </ul>
+      </div>
+  
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+          GAMING
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">PICO</a></li>
+          <li><a class="dropdown-item" href="#">OCULUS</a></li>
+          <li><a class="dropdown-item" href="#">GAMING ACCESSORIES</a></li>
+          <li><a class="dropdown-item" href="#">PLAYSTATION</a></li>
+        </ul>
+      </div>
+      
+      <div class="btn-group">
+        <button class="btn btn-secondary" type="button" >
+          DAILY DEALS
+        </button>
+     
+      </div>
+      
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+          SMARTWATCH
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">FOSSIL</a></li>
+          <li><a class="dropdown-item" href="#">GARMIN</a></li>
+          <li><a class="dropdown-item" href="#">HUAWEI</a></li>
+          <li><a class="dropdown-item" href="#">NOKIA</a></li>
+          <li><a class="dropdown-item" href="#">SUMSUNG</a></li>
+          <li><a class="dropdown-item" href="#">ACCESSORIES</a></li>
+  
+        </ul>
+      </div>
+      
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+          PRINTERS
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">PRINTERS</a></li>
+          <li><a class="dropdown-item" href="#">INKS</a></li>
+          <li><a class="dropdown-item" href="#">TONER CARTRIDGES</a></li>
+          <li><a class="dropdown-item" href="#">SCANNERS</a></li>
+        </ul>
+      </div>
+  
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+           SMARTPHONE
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">APPLE</a></li>
+          <li><a class="dropdown-item" href="#">SUMSUNG</a></li>
+          <li><a class="dropdown-item" href="#">HUAWEI</a></li>
+          <li><a class="dropdown-item" href="#">SMARTPHONE ACCESSORIES</a></li>
+          <li><a class="dropdown-item" href="#">MOTOROLA</a></li>
+          <li><a class="dropdown-item" href="#">REALME</a></li>
+          <li><a class="dropdown-item" href="#">BLACKVIEW</a></li>
+        </ul>
+      </div> 
+      </div>   
+    <div id="mmele">
+    
+    
+       <div id="category" class="section">
+        <div class="sidenav">
+          <a href="#"><b>CATEGORY</b></a>
+          <button class="dropdown-btn">GAMING
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <button class="dropdown-btn">AUTOMATION
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <button class="dropdown-btn">Beauty and Personal Care
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <button class="dropdown-btn">Computers Automation 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <button class="dropdown-btn">Camping and Outdoors Automation
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <button class="dropdown-btn">Electronics Automation
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <a href="#"><b>Engraving Machine</b></a>
+          <button class="dropdown-btn">Garden, Pool and Patio 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <button class="dropdown-btn">Printers 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <a href="#"><b>Daily Deals</b></a>
+          <button class="dropdown-btn">Smart Home
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <button class="dropdown-btn">Smart Phones
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <a href="#">Software</a>
+          <button class="dropdown-btn">Fashion and Luggage 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <button class="dropdown-btn">Entertainment
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <a href="#"><b>On Sale</b></a>
+        </div>
+      
+        </div>
+    </div> 
+       <div id="slide">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="images/1.jpg" width="100%" height="500px">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="images/2.jpg" width="100%" height="500px">
+              
+            </div>
+            
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              
+            </div>
+       </div>
+       </div>
+       
+    
+    <div id="stoko">
+     <div id="card" class="pol">
+      <img src="images/gaming.jpg" style="width:9rem">
+      <div class="skhwama">
+        <h6><b>GAMING</b></h6>
+            <b id="line">______</b>
+            <p>PICO</p>
+            <p>OCULUS</p>
+        
+      </div>
+     </div>
+     <div id="card" class="pol">
+      <img src="images/computers.jpg" style="width:9rem">
+      <div class="skhwama">
+        <h6><b>COMPUTERS</b></h6>
+        <b id="line">______</b>
+        <p>TABLETS</p>
+        <p>PROJECTOR</p>
+          </div>
+      </div>
+
+      <div id="card" class="pol">
+        <img src="images/electronics.jpg" style="width:9rem">
+        <div class="skhwama">
+          <h6><b>ELECTRONICS</b></h6>
+            <b id="line">______</b>
+            <p>CAMERAS</p>
+            <p>GPS AND NAV</p>
+            </div>
+        </div>
+
+        <div id="card" class="pol">
+          <img src="images/smartwatch.jpg" style="width:9rem">
+          <div class="skhwama">
+            <h6><b>SMARTWATCH</b></h6>
+            <b id="line">______</b>
+            <p>GARMIN</p>
+            <p>SAMSUNG</p>
+              </div>
+          </div>
+    
+
+
+          <div id="card" class="pol">
+            <img src="images/printers.jpg" style="width:9rem">
+            <div class="skhwama">
+              <h6><b>PRINTERS</b></h6>
+            <b id="line">______</b>
+            <p>PRINTERS</p>
+            <p>INKS</p>
+            </div>
+          </div>
+
+          <div id="card" class="pol">
+            <img src="images/smartphones.jpg" style="width:9rem">
+            <div class="skhwama">
+              <h6><b>SMARTPHONES</b></h6>
+            <b id="line">______</b>
+            <p>APPLE</p>
+            <p>SAMSUNG</p>
+            </div>
+          </div>
+    </div>
+    
+    </div>
+    <h3><b>Products</b></h3>
+    <div id="mpa">
+    
+      
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/acer.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>ACER</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>ACER H7550ST<br>PROJECTOR WITH<br>1080P RESOLUTION</strong></p>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R5,100.00</strong> </p>
+        <button id="btnC">
+          <i class="fa fa-shopping-cart"></i>
+          <span>Add to cart</span>
+        </button>
+        <p class="stock" style="font-size: 18px;"><strong>In Stock</strong></p>
+      <i class=" fa fa-check" style="font-size: 40px; color: green;"></i>
+      </div>
+
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/wahoo.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>WAHOO</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>INTEGRATED-OUT<br>FRONT MOUNT <br>GORILLA ROW-V1</strong></p>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R6,000.00</strong> </p>
+        <button id="btnC">
+          <i class="fa fa-shopping-cart"></i>
+          <span>Add to cart</span>
+        </button>
+        <p class="stock" style="font-size: 18px;"><strong>In Stock</strong></p>
+      <i class=" fa fa-check" style="font-size: 40px; color: green;"></i>
+      </div>
+
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/lenovo.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>LENOVO</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>THINK VISION M14<br>BUILT-IN<br>FULL HD MOBILE IPS</strong></p>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R6,800.00</strong></p>
+          <button id="btnC">
+            <i class="fa fa-shopping-cart"></i>
+            <span>Add to cart</span>
+          </button>
+        <p class="stock" style="font-size: 18px;"><strong>In Stock</strong></p>
+      <i class=" fa fa-check" style="font-size: 40px; color: green;"></i>
+      </div>
+
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/smatra.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>SMATREE</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>META QUEST2<br>WITH DOCK &<br>HEADSET & TOUCH</strong></p>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R1,790.00</strong> </p>
+        <button id="btnC">
+          <i class="fa fa-shopping-cart"></i>
+          <span>Add to cart</span>
+        </button>
+        <p class="stock" style="font-size: 18px;"><strong>Out-of-stock</strong></p>
+        <i class="fa fa-minus-circle" style="font-size:40px;color:red"></i>
+      </div>
+
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/pioneer.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>PIONEER</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>DJ REKORDBOX<br>PERFOMANCE<br>DDJ-800 CONTROLLER</strong></p>
+        <i class="fa fa-star" style ="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R21,800.00</strong></p>
+        <button id="btnC">
+          <i class="fa fa-shopping-cart"></i>
+          <span>Add to cart</span>
+        </button>
+        <p class="stock" style="font-size: 18px;"><strong>In Stock</strong></p>
+      <i class=" fa fa-check" style=" font-size: 40px; color: green;"></i>
+      </div>
+    </div>
+    <div id="cap0">
+      <img src="images/ozow.png" style="width: 100%; height: 400px;">
+    </div>
+    </div>
+    <div id="cap1">
+      <img src="images/paygate.png" style="width: 100%; height: 400px;">
+    </div>
+    
+
+    <h3><b>On Sale</b></h3>
+    <div id="mpa1">
+    
+      
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/bose.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>BOSE</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>QuietComfort<br>BLACK<br>Bose headphones 2</strong></p>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R6,900.00</strong> </p>
+        <button id="btnC">
+          <i class="fa fa-shopping-cart"></i>
+          <span>Add to cart</span>
+        </button>
+        <p class="stock" style="font-size: 18px;"><strong>Last Item</strong></p>
+        <i class="fas fa-exclamation-triangle" style="font-size:40px;color:yellowgreen"></i>
+      </div>
+
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/dell.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>DELL</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>DELL OPTIplex<br>Intel core i5<br>6gb ram ..</strong></p>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R8,450.00</strong> </p>
+        <button id="btnC">
+          <i class="fa fa-shopping-cart"></i>
+          <span>Add to cart</span>
+        </button>
+        <p class="stock" style="font-size: 18px;"><strong>In Stock</strong></p>
+      <i class=" fa fa-check" style="font-size: 40px; color: green;"></i>
+      </div>
+
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/PICO.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>PICO</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>PICO 4<br>INCLUDES<br>125GB HEADSET</strong></p>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R10,600.00</strong> </p>
+        <button id="btnC">
+          <i class="fa fa-shopping-cart"></i>
+          <span>Add to cart</span>
+        </button>
+        <p class="stock" style="font-size: 18px;"><strong>In Stock</strong></p>
+      <i class=" fa fa-check" style=" font-size: 40px; color: green;"></i>
+      </div>
+
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/panasonic.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>PANASONIC</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>PROFESIONAL<br>CAMCODER<br>LARGE 1.0 SENSOR</strong></p>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R21,000.00</strong> </p>
+        <button id="btnC">
+          <i class="fa fa-shopping-cart"></i>
+          <span>Add to cart</span>
+        </button>
+        <p class="stock" style="font-size: 18px;"><strong>Last Item</strong></p>
+        <i class="fas fa-exclamation-triangle" style="font-size:40px;color:yellowgreen"></i>
+      </div>
+
+      <div id="card1" class="first">
+        <i class=" fa fa-heart" style=" color: black;"></i>
+        <img src="images/msi.jpg" alt="" style="height: 120px; width: 110px;" >
+        <p class="ftext" style="font-size: 15px">BRAND:<strong>MSI</strong></p>
+        <p class="ftext2" style="font-size: 17px"><strong><br>MSI OPTIX<br>GAMING IPS<br>MONITOR</strong></p>
+        <i class="fa fa-star" style ="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <i class="fa fa-star" style="color: grey;"></i>
+        <p class="f1" style="font-size: 19px;">Review(s): 0</p>
+        <p class="price1" style="font-size: 22px; color: red"><strong>R21,800.00</strong> </p>
+        <button id="btnC">
+          <i class="fa fa-shopping-cart"></i>
+          <span>Add to cart</span>
+        </button>
+        <p class="stock" style="font-size: 18px;"><strong>In Stock</strong></p>
+      <i class=" fa fa-check" style="font-size: 40px; color: green;"></i>
+      </div>
+
+    
+    </div>
+  </div>
+  <div id="cap2">
+    <img src="images/payfast.jpg" style="width: 100%; height: 400px;">
+  </div>
+
+    </div>
+        
+       
+     <div id="maoto">
+     <div id="ima">
+      <img src="images/sneaker.jpg" style="clip-path: circle(50%); cursor: pointer;" id="circle">
+      <img src="images/beuty.jpg" style="clip-path: circle(50%); cursor: pointer;" id="circle">
+      <img src="images/dress.jpg" style="clip-path: circle(50%); cursor: pointer;" id="circle">
+      <img src="images/bottoms.jpg" style="clip-path: circle(50%); cursor: pointer;" id="circle">
+      
+    </div>
+    <div id="container-fluid">
+      <div id="col-xs-3"><p class="fa fa-truck icon_cms"></p>
+        <h3>Free Shipping</h3>
+        <p>For All Order over R499.99</p>
+      </div>
+      <div id="col-xs-3"><p class="fa fa-refresh icon_cms"></p>
+        <h3>Product Return</h3>
+        <p>30 day for Return</p>
+      </div>
+      <div id="col-xs-3"><p class="fa fa-comments-o icon_cms"></p>
+        <h3>Support 24/7</h3>
+        <p>Always feedback customer 24/7</p>
+      </div>
+      <div id="col-xs-3"><p class="fa fa-lock icon_cms"></p>
+        <h3>Safe Payment</h3>
+        <p>Safe Shopping Guarantee</p>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="cont2">
+          <div class="row2">
+              <div class="footer-col">
+                  <h4>ACCOUNT</h4>
+                  <ul>
+                  <li><a href="#">Account Details</a></li>
+                  <li><a href="#">Orders</a></li>
+                  <li><a href="#">Return & Exchanges</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">Notification Settings</a></li>
+                  <li><a href="#">Buy Gift Vouchers</a></li>
+    
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>CLIENT CONCIERGE</h4>
+                  <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Delivery Options</a></li>
+                    <li><a href="#">Click & Collect</a></li>
+                    <li><a href="#">Returns Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  
+                  </ul>
+              </div>
+    
+              <div class="footer-col">
+                <h4>THE COMPANY</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Careers at Superbalist</a></li>
+                  <li><a href="#">Tech Careers</a></li>
+                  <li><a href="#">Marketing Services</a></li>
+                  <li><a href="#">Corporate Gift Vouchers</a></li>
+                  <li><a href="#">Conscious Journey</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Takealot Group Human Rights</a></li>
+                  <li><a href="#">Statements</a></li>
+                  <li><a href="#">Speak Up Process</a></li>
+                
+                </ul>
+            </div>
+              <div class="footer-col">
+                  <h4>TAKEALOT. GROUP</h4>
+                  <ul>
+                      <li><a href="#">Mr D Food</a></li>
+                      <li><a href="#">takealot</a></li>
+                     
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>social- links</h4>
+    
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-whatsapp"></i></a>  
+    
+                  </div>
+                  <img src="images/appstore.PNG" style="margin: 0.5%;" id="fpho">
+                  <img src="images/googleplay.PNG" style="float: left; margin: 0.5%;" id="fpho1">
+                  <br>
+                  <img src="images/appgalery.PNG"  style="margin-left: 25%;" id="fpho2">
+                  <br>
+                  <img src="images/exc.PNG" style="margin-left: 12.5%; margin-top: 0.5rem;" id="fpho3">
+
+              </div>
+          </div>
+      </div>
+    </footer>
+             
+      
+     </div>
+
+ 
+    
+        
+    </div>
+    <script>
+      /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+      var i;
+      
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+      </script>
+    
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 1000); // Change image every 2 seconds
+        }
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
